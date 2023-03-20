@@ -1,0 +1,33 @@
+.history {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.domain-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .history {
+    padding: 10px 20px 10px 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.domain-details-container {
+  width: 85%;
+}
+
+.domain-details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
